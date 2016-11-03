@@ -3,7 +3,7 @@
  * (margin/padding adjustments)
  * ------------------------------------- */
 .welcome-page{
-	/*background-image: url("https://res.cloudinary.com/dqh2kgypz/image/upload/v1471620765/background_first_title_f3h6go.jpg");*/
+	background-image: url("https://res.cloudinary.com/dqh2kgypz/image/upload/v1471620765/background_first_title_f3h6go.jpg");
 	background-size: cover;
 	color: #7F0799;
 	size: auto
@@ -49,4 +49,31 @@
 }
 .process-flow p{
 	font-size: 25px
+}
+.log-in{
+	margin-left: 60%;
+	margin-right: 60%;
+	border-radius: 10px;
+	height:auto;
+	width: auto;
+}
+.log-in a{
+	font-size: 30px;
+	font: helvetica;
+	text-decoration: none;
+	height: auto;
+	width:auto;
+}
+.log-in-text {
+	height: auto;
+	width:220px;
+}
+.log-in-again {
+	margin-left: 60%;
+	margin-right: 30%;
+	border-radius: 10px
+}
+
+.enrollment {
+		margin-top: 10px;
 }

@@ -3,7 +3,7 @@ class UsersController < ApplicationController
     @users = User.all
   end
   def show
-  	 @user = current_user
+  	 @user = user.find(params[:id])
   end
 
   # def edit_address

@@ -22,8 +22,15 @@
 		 </div>
 	</div>
 	</div>
+	
 	<div class="container-fluid enrollment">
-		<button><h2><%= link_to "Wanna give a try?", new_user_registration_path %></h2></button>
-		<button><h2><%= link_to "again?", new_user_session_path %></h2></button>
+	<div class = "row">
+	 <div class="col-md-4">
+		<button class="log-in"><h2 class="log-in-text"><%= link_to "Wanna give a try?", new_user_registration_path %></h2></button>
 	</div>
-</div>
+	<div class="col-md-4">
+		<button class="log-in-again"><h2><%= link_to "again?", new_user_session_path %></h2></button>
+	</div>
+	</div>
+	</div>
+

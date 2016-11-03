@@ -1,17 +1,21 @@
-<h2>Sign up</h2>
+<html style="padding-left:25%; padding-right:25%; background-image:url(https://res.cloudinary.com/dqh2kgypz/image/upload/v1471620765/background_first_title_f3h6go.jpg)">
+<h2 style="text-align:center;">Sign up</h2>
 
 <%= simple_form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
   <%= f.error_notification %>
 
-  <div class="form-inputs">
+  <div class="form-inputs" style="border-radius: 5%" >
     <%= f.input :email, required: true, autofocus: true %>
+    <%=f.input :name, required: true%>
     <%= f.input :password, required: true, hint: ("#{@minimum_password_length} characters minimum" if @minimum_password_length) %>
     <%= f.input :password_confirmation, required: true %>
+    <%= f.input :phone_number, required: true %>
   </div>
 
-  <div class="form-actions">
+  <div class="form-actions" style="padding-left:45%;">
     <%= f.button :submit, "Sign up" %>
   </div>
 <% end %>
 
-<%= render "devise/shared/links" %>
+
+</html>
